@@ -1,0 +1,271 @@
+server:
+  config:
+    port : 8000
+    epfilepath: C:\Users\admin\Desktop\workspace\file-searcher\data\ep
+    tempfilepath: C:\Users\admin\Desktop\workspace\file-searcher\data\tmp
+    indexInterval : 1000
+    fileSortDivision : 1000
+    fileDeletePeriodDay : 3
+    cpuCore : 3
+    workers : 2
+  logging: 
+    filename: C:\Users\admin\Desktop\workspace\file-searcher\log\application.log
+    level: info
+    max_size: 500
+    max_backups: 3
+    max_age: 3
+    compress: false
+shop:
+  tmon:
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+    columnCount : 34
+  hyundai:    
+    delimiter: ^
+    idPostion: 0
+    header : false
+    custom : false
+  TOC0F:
+    startWord: "<<<begin>>>"
+    endWord: "<<<ftend>>>"
+    idWord: "<<<mapid>>>"
+    custom : true
+  TO1163:
+    startWord: "<<<begin>>>"
+    endWord: "<<<ftend>>>"
+    idWord: "<<<mapid>>>"
+    custom : true
+  TH201:
+    startWord: "<<<begin>>>"
+    endWord: "<<<ftend>>>"
+    idWord: "<<<mapid>>>"
+    custom : true
+  EE715:
+    startWord: "<<<begin>>>"
+    endWord: "<<<ftend>>>"
+    idWord: "<<<mapid>>>"
+    custom : true
+  ED904:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  ED905:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TV828A:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TSB275:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TQ304:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  EE309:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TV550:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false 
+  ED903:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  ED901:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false 
+  ED909:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false 
+  EE311:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+    columnCount : 52
+  TSBB7:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false 
+  TR605:
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TS606:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TN118:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TRB03:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TT336E:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TN920:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TH401:
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TN729:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TQC01:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TSC33D:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TTC2DF:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TU9D5:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TU5144:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TU9159:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TTB3F7:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TU358A:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TJ918:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TV7162:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TU14D:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TLC16:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TLB17:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TU774:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+    
+  TG702:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TP90D:    
+    delimiter: ^
+    idPostion: 0
+    header : false
+    custom : false
+  TP304:    
+    delimiter: ^
+    idPostion: 0
+    header : false
+    custom : false
+  TR305:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TR307:    
+    delimiter: ^
+    idPostion: 0
+    header : false
+    custom : false
+  TQB02:
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TP40F:    
+    delimiter: "\t"
+    idPostion: 0
+    header : true
+    custom : false
+  TSA39A:    
+    delimiter: "^"
+    idPostion: 0
+    header : true
+    custom : false
+  TP402:    
+    delimiter: "^"
+    idPostion: 0
+    header : true
+    custom : false
+  DEFAULT:    
+    delimiter: "^"
+    idPostion: 0
+    header : false
+    custom : false
