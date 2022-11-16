@@ -98,7 +98,7 @@ EE311-1667786400-2.txt
 - timestamp : 해당 데이터 일자
 - source : 원본 데이터 내용
 
-GET /search?shopCode=EE301&productId=2073143136&startDate=20220326&&endDate=20220329
+`GET /search?shopCode=EE301&productId=2073143136&startDate=20220326&&endDate=20220329`
 
 ```JSON
 [
