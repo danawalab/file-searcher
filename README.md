@@ -73,7 +73,7 @@ EE311-1667786400-2.txt
 ...
 ```
 
-## 파일 서처 서비스 API 가이드
+## API guide
 
 `GET /search`
 
@@ -135,7 +135,7 @@ GET /search?shopCode=EE301&productId=2073143136&startDate=20220326&&endDate=2022
 ]
 ```
 
-## 기술 블로그
+## More information
 
 https://danawalab.github.io/common/2022/11/10/big-file-searcher.html
 
