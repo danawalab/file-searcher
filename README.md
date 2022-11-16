@@ -1,7 +1,7 @@
 # File-Searcher
 대용량 파일을 색인/검색할 수 있는 검색 도구입니다. indexing & search large text files.
 
-## 기능 명세
+## Specification
 
 	
 1. 텍스트 파일에 대해 색인 및 검색 기능을 제공한다. ( Provides index and search capabilities for text files )
@@ -13,7 +13,7 @@
 7. API를 통해 다른 클라이언트에서 호출해서 결과를 받을 수 있다. ( You can call from other clients through API and receive results )
 8. 로그를 통해 실시간으로 메모리에 적재한 문서와 메모리 사용량을 확인할 수 있다. ( You can check the documents loaded in memory and the memory usage in real time through the log )
 
-## 설정 방법
+## Settings
 
 설정 파일(/config/config.yaml)을 시스템에 맞게 설정합니다.
 
